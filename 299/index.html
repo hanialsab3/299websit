@@ -84,7 +84,14 @@
             <option value="cifar">CIFAR-10 (object recognition, small)</option>
             <option value="imagenet">ImageNet (object recognition, large)</option>
           </select>
-		 
+		
+		<input type="button" value="Run" onclick="showImage();"/>
+		
+		<div class="class="col-lg-7 col-md-6"">
+			<img id="loadingImage" src="img/umbrella.jpg" style="visibility:hidden" class="img-fluid"/>
+		</div>
+	</div>	
+		
         <div class="col-md-6 intro-img order-md-last order-first">
           <img src="img/intro-img.svg" alt="" class="img-fluid">
         </div>
