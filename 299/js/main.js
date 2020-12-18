@@ -133,3 +133,6 @@
 
 })(jQuery);
 
+function showImage(){
+        document.getElementById('loadingImage').style.visibility="visible";
+}
